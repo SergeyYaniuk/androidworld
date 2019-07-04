@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/show_map_btn">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/large_iv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/large_event_image"/>
+
+            <TextView
+                android:id="@+id/title_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_20"
+                android:layout_marginEnd="@dimen/margin_20"
+                android:paddingTop="@dimen/padding_4"
+                android:paddingBottom="@dimen/padding_4"
+                android:textSize="@dimen/text_size_20"
+                android:fontFamily="@font/roboto_medium"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/short_desc_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_2"
+                android:layout_marginEnd="@dimen/margin_20"
+                android:paddingTop="@dimen/padding_4"
+                android:paddingBottom="@dimen/padding_4"
+                android:textSize="@dimen/text_size_12"
+                android:fontFamily="@font/roboto_medium"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/description_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_14"
+                android:layout_marginEnd="@dimen/margin_20"
+                android:layout_marginBottom="@dimen/margin_14"
+                android:paddingTop="@dimen/padding_4"
+                android:paddingBottom="@dimen/padding_4"
+                android:textSize="@dimen/text_size_16"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="@color/colorBlack"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/show_map_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_50"
+        android:layout_alignParentBottom="true"
+        android:text="@string/show_on_map"
+        android:textAllCaps="true"
+        android:textSize="@dimen/text_size_14"
+        android:fontFamily="@font/roboto_medium"
+        android:background="@color/colorGreen"
+        android:textColor="@color/colorWhite"/>
+</RelativeLayout>

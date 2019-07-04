@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AndroidWorld</string>
+
+    <!-- Base Activity -->
+    <string name="loading">Loading…</string>
+
+    <!-- Main Activity -->
+    <string name="android_world">Android World</string>
+    <string name="events">EVENTS</string>
+    <string name="shops">SHOPS</string>
+
+    <!-- Events Fragment -->
+    <string name="small_event_image">Event Image</string>
+
+    <!-- Shops Fragment -->
+    <string name="shop_image">Shop Image</string>
+
+    <!-- Event Detail Fragment -->
+    <string name="show_on_map">Show On Map</string>
+    <string name="large_event_image">Large Event Image</string>
+    <string name="event">EVENT</string>
+</resources>

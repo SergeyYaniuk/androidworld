@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_2">2dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_14">12dp</dimen>
+    <dimen name="margin_20">18dp</dimen>
+    <dimen name="margin_21">20dp</dimen>
+    <dimen name="margin_23">22dp</dimen>
+    <dimen name="margin_24">23dp</dimen>
+
+    <dimen name="padding_4">3dp</dimen>
+    <dimen name="padding_6">5dp</dimen>
+
+    <dimen name="text_size_12">10sp</dimen>
+    <dimen name="text_size_14">12sp</dimen>
+    <dimen name="text_size_16">14sp</dimen>
+    <dimen name="text_size_20">18sp</dimen>
+
+    <dimen name="button_50">40dp</dimen>
+
+    <dimen name="image_60">50dp</dimen>
+</resources>
